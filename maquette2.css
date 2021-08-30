@@ -1,0 +1,85 @@
+ body{
+     margin: 0;
+ }
+ /* debut des styles appliquée à la div link*/
+ .link{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: cadetblue; */
+} 
+a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: rgb(20, 17, 17);
+    opacity: 1;
+}
+span{
+    font-size: 18px;
+    font-weight: 700;
+    color: green;
+}
+.link input{
+    /* border: 1px solid black; */
+    border-radius:5px;
+    height: 30px;
+    padding-left: 30px;
+    width: 145px;
+}
+.link input::placeholder{
+    
+    color:rgb(163, 170, 153);
+}
+/* fin des styles appliquée à la div link*/
+
+/* debut des styles appliquée à la div text*/
+.text{
+    /* border: 1px solid black; */
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 auto;
+    padding-bottom: 5px;
+}
+.text h1, p{
+    text-align: center;
+}
+.text h1{
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    opacity: .8;
+    text-transform: capitalize;
+}
+.text p{
+    font-size: 1.2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: .6;
+}
+.text input{
+    margin-left:43% ;
+    padding-left: 15px;
+    width: 115px;
+    height: 40px;
+    background-color: rgb(76, 59, 138);
+    border-radius: 5px;
+    color: #fff;
+}
+.text input::placeholder{
+    color:#fff;
+}
+/* fin des styles appliquée à la div text*/
+
+/*l'image*/
+.image{
+    /* border: 1px solid blue; */
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+    height: 455px;
+    background-image: url("image/nature.jpg");
+    background-size: 100% 100%;
+}
